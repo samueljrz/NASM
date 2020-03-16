@@ -1,1 +1,1 @@
-## Some exemples relationed the assembler NASM(IA-32 and x86-64)
+## Some exemples relationed to the assembler NASM(IA-32 and x86-64)
