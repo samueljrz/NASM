@@ -1,0 +1,39 @@
+%include "io.inc"
+
+section .data
+    NumFat DD 0d
+    Aux DD 1d
+    Count DW 0d  
+    
+section .text
+global CMAIN
+CMAIN:
+    mov ebp, esp; for correct debugging
+    GET_DEC 4, [NumFat]
+    
+    mov ecx, [NumFat]
+    add ecx, 0
+    jle FIM
+   
+    FAT1:
+    mov [Count], ecx
+    mov ecx, [NumFat]
+    mov eax, [Aux]
+    xor ebx, ebx
+    
+    FAT2:
+    add ebx, eax
+    mov [Aux], ebx
+    loop FAT2
+    
+    mov edx, [NumFat]
+    dec edx
+    mov [NumFat], edx
+    mov ecx, [Count]
+    loop FAT1
+    
+    FIM:
+    PRINT_DEC 4, [Aux]
+    
+    xor eax, eax
+    ret
