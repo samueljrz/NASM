@@ -1,3 +1,5 @@
+;test triangle
+
 %include "io.inc"
 
 section .data

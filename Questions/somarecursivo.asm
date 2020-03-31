@@ -1,3 +1,5 @@
+;recursive sum
+
 %include "io.inc"
 
 section .data

@@ -1,3 +1,5 @@
+;idk
+
 %include "io.inc"
 
 section .data

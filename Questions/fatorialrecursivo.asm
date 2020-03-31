@@ -1,3 +1,5 @@
+;recursive fatorial example
+
 %include "io.inc"
 
 section .text

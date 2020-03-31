@@ -1,3 +1,5 @@
+;invert string
+
 %include "io.inc"
 
 section .data

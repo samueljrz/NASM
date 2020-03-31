@@ -1,3 +1,5 @@
+;sum array with stack
+
 %include "io.inc"
 
 section .data

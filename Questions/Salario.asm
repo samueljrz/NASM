@@ -1,3 +1,5 @@
+;rise salary in the your range
+
 %include "io.inc"
 
 section .data

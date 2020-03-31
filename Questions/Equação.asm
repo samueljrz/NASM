@@ -1,3 +1,5 @@
+;resolution of a equation 
+
 %include "io.inc"
 
 section .data

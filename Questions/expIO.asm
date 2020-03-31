@@ -1,3 +1,5 @@
+;I/O example
+
 section .data                           ;Data segment
    userMsg db 'Please enter a number: ' ;Ask the user to enter a number
    lenUserMsg equ $-userMsg             ;The length of the message

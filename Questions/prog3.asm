@@ -1,3 +1,5 @@
+;test print
+
 %include "io.inc"
 
 section .data

@@ -1,3 +1,5 @@
+;example product in the your determination price range
+
 %include "io.inc"
 
 section .data

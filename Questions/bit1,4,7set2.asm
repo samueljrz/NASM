@@ -1,3 +1,5 @@
+;test if the bits 1, 4, 7 being sets
+
 %include "io.inc"
 
 section .text

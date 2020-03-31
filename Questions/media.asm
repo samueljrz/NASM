@@ -1,3 +1,5 @@
+;average
+
 %include "io.inc"
 
 section .data

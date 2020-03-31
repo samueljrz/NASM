@@ -1,3 +1,5 @@
+;log x in base n
+
 %include "io.inc"
 
 section .text

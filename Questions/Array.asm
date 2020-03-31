@@ -1,3 +1,5 @@
+;test of arrays with addition
+
 %include "io.inc"
 section .data
     myByte DB 80h, 66h, 0A5h

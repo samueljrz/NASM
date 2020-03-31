@@ -1,3 +1,5 @@
+;fatorial example don't complete
+
 %include "io.inc"
 
 section .data

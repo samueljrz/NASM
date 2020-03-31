@@ -1,3 +1,5 @@
+;example def hours, minutes and seconds
+
 %include "io.inc"
 
 section .text

@@ -1,3 +1,5 @@
+; sum of 1 to n
+
 %include "io.inc"
 section .text
 global CMAIN

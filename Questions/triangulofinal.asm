@@ -1,3 +1,5 @@
+;test triangle ret
+
 %include "io.inc"
 
 section .bss   

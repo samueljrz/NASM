@@ -1,3 +1,5 @@
+;invert array
+
 %include "io.inc"
 
 section .data  
