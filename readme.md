@@ -2,7 +2,7 @@
 
 ### How 
 
-* C integrate Assembly
+* C integrated with Assembly
 
 * Assembly
 
